@@ -1,0 +1,25 @@
+Objective:
+      To create a database and perform sevral functions.
+Functional Requirements:
+	login :(user name, password)
+	create new account:(USER_ID,USER_name,phn number,mail id,set_password,save)
+	page open :
+		user name
+		bio
+		about
+		profile pic
+		logout
+
+	Database Schema:
+
+		1)instagram : user id ,user name, email,phonr number,no_of_friends,no_of_pics_posted
+
+		CREATE TABLE INSTAGRAM(USER_ID NUMBER,USER_NAME VARCHAR(10) UNIQUE,PASSWORD VARCHAR(20),EMAIL VARCHAR(20) NOT NULL UNIQUE,PHONE_NUMBER NUMBER NOT NULL UNIQUE,PRIMARY KEY(USER_ID));
+
+		CREATE TABLE ABOUT(ID NUMBER NOT NULL PRIMARY KEY,ABOUT VARCHHAR(500),USER_ID NUMBER FOREIGN KEY REFERENCES INSTAGRAM(USER_ID));
+
+
+
+List of pages: LOGIN 
+			   BIO
+			   LOGOUT(AFTER LOGING OUT)->DISPLAY U HAVE LOGGED OUT.LOGIN AGAIN.

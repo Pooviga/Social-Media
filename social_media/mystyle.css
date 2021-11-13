@@ -1,0 +1,66 @@
+body {
+  background-image: url("http://localhost/poovi/bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+input[type=submit] {
+  background-color:#582A17;
+  width: 7%;
+  color: white;
+  padding: 14px 160px;
+  margin: 8px 70px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: :20px;
+}
+h1 {
+  color: white;
+  margin-left: 120px;
+  text-shadow: 3px 3px black;
+}
+p4{
+	  text-decoration-line: underline;
+	  color:white;
+	margin-left :70px;
+	font-size: 20px;
+
+}
+p{
+	color:white;
+	margin-left :70px;
+	font-size: 20px;
+}
+p.a {
+  margin-left: 70px;
+}
+#a234{
+width: 7%;
+  background-color:#582A17;
+  color: white;
+  padding: 14px 160px;
+  margin: 8px 70px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+
+}
